@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat ~/passwdgit | xclip -selection c

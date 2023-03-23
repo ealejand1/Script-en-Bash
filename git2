@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cat ~/passwdgit | xclip -selection c 
+git add .
+git commit -m "$1"
+if [ -e $2 ]
+	then 
+		git push origin $2
+	else
+		git push origin main
+fi
