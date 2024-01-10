@@ -1,0 +1,2 @@
+open . &>/dev/null || disown
+//Sirve para poder abrir un proceso y que este en 2 plano
